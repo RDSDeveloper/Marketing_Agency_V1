@@ -1,0 +1,10 @@
+asgiref==3.6.0 #Django base
+Django==4.2 #Django base
+django-cors-headers==3.14.0  # restringe el acceso de un dominio a la API, decide quien accede y quien no
+django-environ==0.10.0 #Permite creaer variables de entorno seguras
+sqlparse==0.4.4 #Django base
+djangorestframework == 3.14.0 # permite crear API
+Pillow == 9.5.0 # permite trabajar con imagenes
+django-storages == 1.13.2 # permite guardar imagenes en aws, cosa pesadas y dinamicas que la gente puede agregar y volverian pesado el sitio web, usa algo como S3
+django-ckeditor == 6.5.1 #crear contenido mas rico, modificar textos de posts mas bonitos
+psycopg2 == 2.9.6 # permite trabajar con la base de datos de posgreSQL / Ojo si estas en un ubuntu tenes que hacer 2 pasos extra
